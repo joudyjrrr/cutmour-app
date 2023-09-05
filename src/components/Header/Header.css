@@ -1,6 +1,7 @@
 @media (max-width:390px) {
     .header{
    background: red;
+   background-image: url("../../assets/header.png");
     width: 390px !important;
     height: 72px;
     position: fixed;
