@@ -1,0 +1,15 @@
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --white:#fff
+}
+
+body {
+  margin: 0;
+  width: 390px;
+  min-height: 844px;
+  font-family: "Inter", Sans-serif;
+}
+
+*{
+
+}
