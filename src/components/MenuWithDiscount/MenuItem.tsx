@@ -1,11 +1,7 @@
 import React from "react"
 import img  from "../../assets/drink.png"
-
-type ImenyItem = {
-img:string;
-title:string
-}
-const MenuItem =  (props : ImenyItem)=>{
+import { ImenuItem } from "../type"
+const MenuItem =  (props : ImenuItem)=>{
 
     return(
         <div className="menu-item">

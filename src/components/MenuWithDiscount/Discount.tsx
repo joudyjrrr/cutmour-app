@@ -1,8 +1,10 @@
 import "./Menu.css"
 import React from "react"
+import {useNavigate} from "react-router-dom"
 const Discount = ()=>{
+    const navigte = useNavigate()
     return(
-        <div className="discount-content">
+        <div className="discount-content" onClick={()=>navigte("/mainmenu")}>
         <div className="offer">
          <p>Offers</p>
         </div>
