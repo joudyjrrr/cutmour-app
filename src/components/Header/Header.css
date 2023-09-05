@@ -2,25 +2,22 @@
     .header{
    background: red;
    background-image: url("../../assets/header.png");
-    width: 390px !important;
+    width: 100% !important;
     height: 72px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
-    overflow-x: hidden;
     
     }
     .content-header{
-     width:347px ;
+     width:80% ;
      height: 29px;
-     position: fixed;
-     top: 24px;
-     left: 20px;
      padding: 0px 9px 0px 8px;
      gap: 94px;
      display: flex;
-     margin: 2px 0px;
+     margin: 27px 10px;
+     justify-content: center;
     }
     .content-header i{
         font-size: 15px;
@@ -43,4 +40,11 @@
         text-align: left;
      
     }
+}
+@media (max-width:360px) {
+    .content-header{
+        width: 80%;
+        gap: 65px;
+    }
+    
 }

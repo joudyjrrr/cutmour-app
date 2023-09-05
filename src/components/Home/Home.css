@@ -21,12 +21,12 @@
         cursor: pointer;
     }
    .home .title{
-       position: fixed;
-       width: 197px;
-       height: 44px;
-       top: 174px;
-      left: 97px;
-      text-align: left;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 170px;
+       width: 100%;
+      text-align: center;
     }
   .home .title h1{
         color: var(--white);
@@ -38,8 +38,7 @@
        
     }
    .home .desc{
-        width: 300px;
-        height: 60px;
+        width: 80%;
         position: fixed;
         top: 219px;
         left: 45px;
@@ -56,7 +55,7 @@
         font-family: Inter;
     }
     .home button{
-        width: 207px;
+        width: 60%;
         height: 40px;
         position: fixed;
         top: 704px;
@@ -79,4 +78,16 @@
        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.11);
     }
 
+}
+@media (max-width:360px) {
+  .home{
+  overflow-x: hidden;
+  }
+   .home .title{
+    width: 85%;
+   }
+   .home .desc{
+    width: 60%;
+   }
+   
 }

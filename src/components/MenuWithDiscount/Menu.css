@@ -23,15 +23,16 @@
         color: var(--white);
     }
     .menu-content{
-        width: 357px;
-        margin: 0 -14px;
+        width: 95%;
+        margin: 0 auto;
         margin-top: 127px;
         display: flex;
         flex-direction: column;
         gap: 8px;
+        justify-content: center;
     }
     .discount-content{
-        width: 357px;
+        width: 100%;
         height: 183px;
         border-radius: 11px;
         background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 28.65%, #000000 100%), url('../../assets/image2.png');
@@ -66,7 +67,7 @@
         text-align: center;
     }
     .discount-content .icons{
-       width: 320px;
+       width: 100%;
        height: 15px;
        position: absolute;
        top: 88px;
@@ -94,7 +95,7 @@
       color: var(--white);
 
     }
-    .desc{
+.discount-content    .desc{
       display: block;
       width: 231px;
       height: 13px;
@@ -130,7 +131,7 @@
         background: rgba(255, 255, 255, 0.5);
     }
     .menu-item{
-       width: 357px;
+       width: 100%;
        height: 183px;
        border-radius: 11px;
        position: relative;
