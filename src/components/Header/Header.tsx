@@ -6,9 +6,9 @@ const Header = ()=>{
     return(
         <div className="header">
           <div className="content-header">
-          <i className="fa-solid fa-chevron-left" onClick={()=>navigte("/home")}></i> 
-            <div>    <h1>Restaurant </h1> </div>
-          <i className="fa-solid fa-magnifying-glass"></i>
+        <div>  <i className="fa-solid fa-chevron-left" onClick={()=>navigte("/home")}></i> </div>
+            <div className="title">    <h1>Restaurant </h1> </div>
+          <div><i className="fa-solid fa-magnifying-glass"></i></div>
           </div>
         </div>
     )

@@ -14,9 +14,8 @@ const MenuWithDiscount = ()=>{
           <div className="icon-lang">
           <i className="fa-solid fa-globe"></i>
           </div>
-          
+          <Discount/>
           <div className="menu-content">
-           <Discount/>
             <MenuItem img={img1} title="Drinks"/>
             <MenuItem img={img2} title="Salad"/>
             <MenuItem img={img3} title="Pasta"/>

@@ -6,9 +6,9 @@
 
 body {
   margin: 0;
-  max-width: 390px;
   font-family: "Inter", Sans-serif;
-  /* overflow-x: hidden !important; */
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
 }
 
 *{
