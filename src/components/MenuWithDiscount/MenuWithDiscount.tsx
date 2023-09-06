@@ -8,6 +8,7 @@ import img2  from "../../assets/bar.png"
 import img3  from "../../assets/spa.png"
 
 const MenuWithDiscount = ()=>{
+
     return(
         <div className="menu">
           <Header/>
@@ -15,13 +16,14 @@ const MenuWithDiscount = ()=>{
           <i className="fa-solid fa-globe"></i>
           </div>
           <Discount/>
-          <div className="menu-content">
+          <div className="menu-content" >
             <MenuItem img={img1} title="Drinks"/>
             <MenuItem img={img2} title="Salad"/>
             <MenuItem img={img3} title="Pasta"/>
             <MenuItem img={img3} title="Pasta"/>
             <MenuItem img={img3} title="Pasta"/>
             <MenuItem img={img3} title="Pasta"/>
+                 <MenuItem img={img3} title="Pasta"/>
           </div>
        
         </div>

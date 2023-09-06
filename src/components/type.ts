@@ -1,4 +1,4 @@
 export  type ImenuItem = {
-    img:string;
-    title:string
+    img:string ;
+    title:string ;
     }
