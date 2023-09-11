@@ -1,0 +1,56 @@
+.select-content{
+    width: 120px;
+    height: fit-content;
+    position: fixed;
+    top: 48px;
+    left: 33px;
+    z-index: 11;
+    background-color: white;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+}
+.slect-content-menu{
+    width: 120px;
+    height: fit-content;
+    position: fixed;
+    top: 100px !important;
+    left: 33px;
+    z-index: 11;
+    background-color: white;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+}
+.select-content ul , .select-content li{
+    background: transparent;
+}
+.select-content ul , .slect-content-menu ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.select-content ul li , .slect-content-menu  ul li{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+     letter-spacing: 0em;
+     text-align: left;
+     outline: none;
+     text-align: center;
+     cursor: pointer;
+     border: none;
+     font-family: Inter;
+     padding:  5px 0 ;
+     transition: all 0.3s ease-in-out 0s;
+     border-radius: 7px;
+}
+.select-content ul li:hover{
+    background-color: #f3f4f6;
+}
+.slect-content-menu ul li:hover{
+    background-color: #f3f4f6;
+}

@@ -1,11 +1,11 @@
 import "./MainMenu.css"
 import img1 from "../../assets/bar.png"
-type MenuItemProps = {
+type props = {
     setShowDetails: (arg: boolean) => void;
   };
   
 
-const MenuDetails = ({ setShowDetails }: MenuItemProps)=>{
+const MenuDetails = ({ setShowDetails }: props)=>{
     return(
         <div className="menu-details-content">
         <div className="menu-details">

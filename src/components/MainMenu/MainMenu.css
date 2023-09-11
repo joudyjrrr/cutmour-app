@@ -73,9 +73,10 @@
         width: 49px;
         height: 25px;
        text-align: left;
+       margin: 0 12px;
     }
     .menu-ver .title p{
-        font-family: Inder;
+        /* font-family: Inder; */
         font-size: 20px;
         font-weight: 400;
         line-height: 25px;
@@ -126,7 +127,7 @@
     gap: 1px;
    }
   .menu-item-ver .text p{
-    font-family: Inder;
+    /* font-family: "Inder"; */
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -135,7 +136,7 @@
 color: var(--white);
   }
   .menu-item-ver .text span{
- font-family: Inder;
+ /* font-family: "Inder"; */
 font-size: 13px;
 font-weight: 400;
 line-height: 16px;
@@ -216,8 +217,8 @@ color: var(--white);
    .menu-details .text p{
     width: 120px;
     height: 30px;
-    font-family: Inder;
-   font-size: 24px;
+    /* font-family: "Inder"; */
+   font-size: 23px;
    font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.06em;
@@ -228,7 +229,7 @@ color: var(--white);
    .menu-details .text span{
     display: block;
     width: 57px;
-    font-family: Inder;
+    /* font-family: "Inder"; */
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
