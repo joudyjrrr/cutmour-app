@@ -10,8 +10,9 @@ import qustion from "../../assets/Vector(1).png"
 import rate from "../../assets/Vector.png"
 import SelectLang from "../SelectLang/SelectLang.tsx";
 import "../SelectLang/Select.css";
+import { useNavigate } from "react-router-dom";
 const MenuWithDiscount = ()=>{
-
+   const navigate = useNavigate()
   const [showLang,setShowLang] = useState(false)
     return(
         <div className="menu">
@@ -20,7 +21,7 @@ const MenuWithDiscount = ()=>{
           <img src={qustion}  onClick={()=>setShowLang(true)}/>
           </div>
           <div className="icon-rate">
-          <img src={rate} />
+          <img src={rate} onClick={()=> navigate("/rate")}/>
           </div>
           <Discount/>
           <div className="menu-content" >
