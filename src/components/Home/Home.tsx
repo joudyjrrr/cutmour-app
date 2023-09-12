@@ -12,10 +12,11 @@ const Home = ()=>{
         <div className="home">
             <img src={img} className="cover"/>
           <div className="lang"> <img src={qusetion} onClick={()=>setShowLang(true)}/></div>
-          <div className="rate"> <img src={rate}/></div>
+          <div className="rate"> <img src={rate} onClick={()=>navigate("/rate")}/></div>
             <div className="title"><h1>Restaurant </h1></div>
             <div className="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p></div>
            <div className="btn"> <button onClick={()=>navigate("/menu")}>Menu</button></div>
+           <div className="bottom"><p>© Apex Software Solutions.</p></div>
            { showLang &&  <div className={`select-content` } ><SelectLang setShowLang={setShowLang}/> </div>   }      
         </div>
     )
